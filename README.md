@@ -6,6 +6,8 @@ Este proyecto busca desarrollar un sistema capaz de reconocer letras y señas de
 
 El sistema analiza la posición de los dedos y la orientación de la mano para identificar la seña realizada y mostrar la letra correspondiente.
 
+El proyecto utiliza sensores flex para determinar la posición de los dedos y un MPU6050 para obtener información sobre la orientación de la mano, permitiendo identificar diferentes letras y señas de la LSA.
+
 Actualmente el proyecto se encuentra en fase de desarrollo y validación del prototipo utilizando potenciómetros para simular los sensores flex antes de implementar el hardware definitivo.
 
 El circuito electrónico y el diseño de la PCB fueron desarrollados en KiCad.
@@ -16,7 +18,6 @@ El objetivo principal del proyecto es aprender sobre la Lengua de Señas Argenti
 
 A través de este desarrollo se busca adquirir experiencia en programación de microcontroladores, procesamiento de datos provenientes de sensores, diseño de circuitos electrónicos y diseño de PCB.
 
-El proyecto utiliza sensores flex para determinar la posición de los dedos y un MPU6050 para obtener información sobre la orientación de la mano, permitiendo identificar diferentes letras y señas de la LSA.
 
 ## Componentes principales
 
